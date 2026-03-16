@@ -26,11 +26,17 @@ The best performing country by sales revenue is the United States (US) because o
 
 ![Q1Findings](Q1Findings.png)
 
+### Question 2
+
+There is no relationship between annual leave taken and bonus. 
+
+![Q2Findings](Q2Findings1.png)
+
 ### Question 3
 
 US generates over 2x revenue of all other countries combined. Revenue rankings align perfectly with store/customer counts per country. This might be because Australia and Germany entered the market in 2013, while US,Canada and UK have been operating since 2011-2012. 
 
-![Q3Findings](Q2Findings.png)
+![Q3Findings](Q3Findings.png)
 
 # Deep Dive 
 _(Click links for more a step-by-step guide and detailed conclusions)_
@@ -40,6 +46,12 @@ _(Click links for more a step-by-step guide and detailed conclusions)_
 The *Northwest and Southeast region sales are underperforming* against expectations. In review of the store dates, it appeared that Northwest, Northeast and Central regions had a *store relocation*. Perhaps, these sales reflect these changes.  
 
 *Northwest and Southwest regions have doubled their performance this year*. There is insufficient data surrounding targeted sales promotions in these regions. This may reflect how Northwest and Southwest regions have larger operations (more stores).  
+
+### [Question2](Question2.md)
+
+There is no relationship between annual leave taken and bonus but there is a moderate positive relationship between commission rate and vacation hours (_r_=.6). In other words, it appears as though the employees who have higher commission rates also tend to take more vacation hours.  
+
+This might suggest that the motivation to work towards commission increases productivity in work and therefore increases the need for rest and recovery, however, this cannot be concluded from the data as the sample size is too small. This more likely reflects that people with work benefits of higher commission rates also have more vacation hours available. 
 
 ### [Question 3](Question3.md) 
 
@@ -58,9 +70,11 @@ There are anomalies in currency exchange data recorded. While different companie
 
 1. Adventure Cycle Works replicates the sales strategies used from western regions identified and *inspect  store relocation performances more closely*. Focus on customer *acquisition strategies for Australia and Germany* to build their market presence following their more recent launch. 
 
-2. The company should *track performance quarterly* instead of annually to maintain growth and intervene quickly where necessary. The IT department should implement a CurrencyCode 0 to clearly indicate when no currency exchange took place, *distinguishing this scenario from missing data*. 
+2. Updated data is gathered on all sales representatives across all stores who are bonus-eligible and identify the motivating factors (commission pct, vacation hours, bonus attained etc.) that improve productivity and employee retention while maintaining cost effectiveness. 
+  
+4. The company should *track performance quarterly* instead of annually to maintain growth and intervene quickly where necessary. The IT department should implement a CurrencyCode 0 to clearly indicate when no currency exchange took place, *distinguishing this scenario from missing data*. 
 
-3. The finance department should *immediately investigate the identified currency exchange issues* and renegotiate all conversion exchange rates to ensure competitive pricing. 
+5. The finance department should *immediately investigate the identified currency exchange issues* and renegotiate all conversion exchange rates to ensure competitive pricing. 
 
  
 
